@@ -32,7 +32,7 @@ section {
     color: rgb(0, 0, 0);
 }
 .half_width span {
-    color: rgb(248, 226, 24);
+    color: orange;
 }
 .half_width h3 {
     font-size: 20px;
@@ -61,5 +61,43 @@ section {
 }
 /* second section end */
 
-/* first section start */
-/* first section end */
+/* third section start */
+.sec_buttom h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+.sec_buttom h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+.sec_buttom p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(41, 38, 38);
+}
+#exp_left {
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, orange, tomato);
+    border-image-slice: 1;
+    box-shadow: 5px 7px 40px grey;
+    height: 90%;
+}
+#exp_right {
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, rgb(38, 0, 255), rgb(131, 201, 241));
+    border-image-slice: 1;
+    box-shadow: 5px 7px 40px grey;
+    height: 90%;
+}
+.sec_buttom {
+    background: url(../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 120px;
+}
+footer p {
+    text-align: center;
+}
+/* third section end */
