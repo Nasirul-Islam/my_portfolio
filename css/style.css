@@ -63,13 +63,13 @@ section {
 
 /* third section start */
 .sec_buttom h1 {
-    font-size: 50px;
-    font-weight: 600;
+    font-size: 40px;
+    font-weight: 500;
     color: rgb(0, 0, 0);
 }
 .sec_buttom h3 {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 500;
     color: rgb(0, 0, 0);
 }
 .sec_buttom p {
